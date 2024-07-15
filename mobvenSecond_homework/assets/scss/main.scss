@@ -1,0 +1,13 @@
+@import "./base/";
+@import "./abstracts";
+@import "./components";
+@import "./mixin";
+@import "./layouts";
+
+
+body {
+    height: 100vh;
+    width: 100%;
+    @include flex;
+    background-color: #F1F1F1;
+  }

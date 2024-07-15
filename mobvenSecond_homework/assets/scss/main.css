@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*.btn {
+  height: 71px;
+  width: 385px;
+  border-radius: 8px;
+  border: none;
+  background-color: $black;
+  color: $white;
+
+  &.blue {
+    background-color: $blue;
+  }
+  &.red {
+    background-color: $red;
+  }
+  &.yellow {
+    background-color: $yellow;
+  }
+  &.sm {
+    width: 100px;
+  }
+
+}*/
+/*.title {
+  font-size: 18px;
+  font-weight: 700;
+
+  &.sm {
+    font-size: 14px;
+  }
+  &.md {
+    font-size: 22px;
+  }
+  &.xl {
+    font-size: 26px;
+  }
+
+  &.red {
+    color: $red;
+  }
+  &.blue {
+    color: $blue;
+  }
+}*/
+/*
+.flex{
+   display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+   align-items: center;
+}
+*/
+.section {
+  width: 350px;
+  height: 430px;
+  background-color: #FFFFFF;
+  padding: 40px;
+  padding-top: 60px;
+  box-shadow: 5px 5px;
+}
+.section__header {
+  margin-bottom: 23px;
+}
+.section__header-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.section__header-info {
+  font-size: 15px;
+}
+.section__input-text {
+  width: 100%;
+  padding: 5px 5px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  font-size: 10px;
+  resize: none;
+  margin-bottom: 10px;
+}
+.section__selection {
+  margin-bottom: 15px;
+}
+.section__selection-btn {
+  margin-right: 5px;
+  accent-color: black;
+}
+.section__selection-btn:focus {
+  background-color: black;
+}
+.section__selection-link {
+  color: #000000;
+}
+.section__button {
+  width: 100%;
+  background-color: #000000;
+  color: #FFFFFF;
+  height: 35px;
+  font-size: 10px;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #F1F1F1;
+}/*# sourceMappingURL=main.css.map */

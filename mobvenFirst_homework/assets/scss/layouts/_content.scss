@@ -1,0 +1,156 @@
+.content {
+    width: 370px;
+    height: 500px;
+    padding: $xxxl;
+    border-radius: 30px;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 8px 0 #B3C7E3, 0 6px 20px 0 #B3C7E3;
+
+
+    &::before {
+        content: "";
+        padding: $xxxl;
+        width: 360px;
+        height: 480px;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        //ortada olması için
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: rgb(233, 232, 255);
+        background: linear-gradient(90deg, rgba(233, 232, 255, 1) 100%, rgba(231, 243, 255, 1) 100%);
+        border-radius: 50px;
+        z-index: -1;
+       
+        
+
+
+    }
+
+    &__header {
+        margin-bottom: 30px;
+
+
+        &-price {
+            color: #292E5A;
+            font-size: 35px;
+            font-weight: bold;
+            text-shadow: 2px 2px 3px #292E5A;
+
+        }
+
+        &-info {
+            color: #292E5A;
+
+        }
+
+    }
+
+    &__btn {
+        background: linear-gradient(90deg, rgba(95, 244, 137, 1) 0%, rgba(121, 244, 244, 1) 100%);
+        width: 290px;
+        height: 45px;
+        border-radius: 8px;
+        border: none;
+        font-size: 14px;
+        margin-bottom: 10px;
+        color: #292E5A;
+        font-weight: bold;
+
+
+        &.-red {
+            background: linear-gradient(90deg, rgba(156, 196, 255, 1) 0%, rgba(180, 168, 255, 1) 100%);
+            color: #292E5A;
+            font-weight: bold;
+            font-size: 13px;
+
+        }
+    }
+
+    &__info {
+        color: #292E5A;
+        margin-bottom: 15px;
+
+        &-title {
+            margin-bottom: 5px;
+        }
+
+        &-item {
+            color: #292E5A;
+        }
+
+        &-tikIcon {
+            width: 25px;
+
+        }
+
+        &-link {
+            color: #292E5A;
+            font-weight: 600;
+            margin-left: 5px;
+
+        }
+    }
+
+    &__tab {
+        width: 290px;
+        background-color: #F3F5FF;
+        border-radius: 8px;
+        height: auto;
+        margin-bottom: 30px;
+
+        &-title {
+            padding: 10px;
+            font-weight: bold;
+            color: #000000;
+        }
+
+        &-buttons {
+            background-color: #F3F5FF;
+            padding: 10px;
+        }
+
+        &-searchIcon {
+            position: absolute;
+            padding: 10px;
+            width: 42px;
+        }
+
+        &-input {
+            width: 160px;
+            height: 40px;
+            padding-left: 35px;
+            background-color: #F3F5FF;
+            border: 1px solid #B3C7E3;
+            border-radius: 8px;
+            color: #292E5A;
+
+            &::placeholder {
+                font-weight: bold;
+                color: #292E5A;
+                opacity: 1;
+                /* Firefox */
+            }
+
+            &::-ms-input-placeholder {
+                /* Edge 12-18 */
+                color: #292E5A;
+            }
+
+        }
+
+        &-btn {
+            background-color: white;
+            border: none;
+            width: 100px;
+            height: 40px;
+            ;
+            border-radius: 8px;
+            color: #292E5A;
+            font-weight: bold;
+
+        }
+    }
+}
